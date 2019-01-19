@@ -1,0 +1,33 @@
+body {
+  background-color: seashell;
+}
+
+header {
+  background-color: azure
+}
+
+footer {
+  position: fixed;
+  background-color: azure;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+/* html :hover {
+  background-color: blue;
+} */
+
+h1 :active {
+  color: red;
+}
+
+table tr:nth-child(odd) {
+  background-color: darkgray
+}
+
+table tr td:hover {
+  text-shadow: 2px 2px green;
+  text-emphasis: bold;
+}
