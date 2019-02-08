@@ -24,10 +24,19 @@ h1 :active {
 }
 
 table tr:nth-child(odd) {
-  background-color: darkgray
+  background-color: darkgray;
 }
 
 table tr td:hover {
   text-shadow: 2px 2px green;
   text-emphasis: bold;
+}
+
+#id {
+  color: chocolate;
+}
+
+.class {
+  color: blue;
+  background-color: red;
 }
